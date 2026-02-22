@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "links-browny-new",
-    "slug": "links-browny-new",
+    "name": "Links Browny",
+    "slug": "links-browny",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "linksbrownynew",
+    "scheme": "linksbrowny",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
@@ -22,7 +22,8 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.miguelmc78.linksbrowny"
     },
     "web": {
       "bundler": "metro",
@@ -33,7 +34,14 @@
       "expo-router"
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "12ed6b73-fca1-45ec-a79d-e9cd8f2810a5"
+      }
     }
   }
 }
